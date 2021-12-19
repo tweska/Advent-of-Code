@@ -1,0 +1,10 @@
+# Files without extensions
+*
+!*.*
+!*/
+
+# Object files
+*.o
+
+# Executables
+*.out
