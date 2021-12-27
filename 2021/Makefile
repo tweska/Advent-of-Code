@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -O2
 
-DAYS = day01a day01b day02a day02b day03a day03b day04 day05a day05b day06 day07a day07b
+DAYS = day01a day01b day02a day02b day03a day03b day04 day05a day05b day06 day07a day07b day08a day08b
 
 .PHONY: all
 .PHONY: run
