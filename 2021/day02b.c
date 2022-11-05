@@ -13,9 +13,10 @@ int main() {
     /* Read each line from stdin. */
     while(fgets(buf, MAX_LEN, stdin) != NULL) {
         /* Check the first character of the line to determine the instruction.
-         * Note that each instruction has a unique firs character! */
+         * Note that each instruction has a unique first character! */
+        int32_t tmp;
         switch(buf[0]) {
-            case 'f':   int32_t tmp = atoi(&buf[8]);
+            case 'f':   tmp = atoi(&buf[8]);
                         horizontal += tmp;
                         depth += aim * tmp;
                         break;
@@ -26,6 +27,6 @@ int main() {
         }
     }
 
-    printf("(DAY 02B) Horizontal positon: %d; Depth: %d; Final answer: %d.\n", horizontal, depth, horizontal * depth);
+    printf("(DAY 02B) Horizontal position: %d; Depth: %d; Final answer: %d.\n", horizontal, depth, horizontal * depth);
     return 0;
 }
