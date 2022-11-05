@@ -1,3 +1,6 @@
 # Executables
 *.out
 bin/
+
+# Puzzle input unique to user
+input/
