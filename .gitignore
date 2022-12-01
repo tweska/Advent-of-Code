@@ -1,6 +1,6 @@
-# Executables
-*.out
-bin/
-
 # Puzzle input unique to user
 input/
+
+# Editors
+.vscode/
+.idea/
